@@ -1,0 +1,99 @@
+ /*  * {background-color: cyan;}  this is the universal selector  */
+
+
+/* SIMPLE SELECTR  */
+body {
+    background-color: cyan;
+}
+button {
+    font-size: 20px;
+    background-color: orange;
+}
+/* HERE BOTH h1 AND h2 ARE SELECTED */
+h1,h2 {
+    color: black;
+}
+/* ID SELECTORS  */
+#cold {
+    background-color: cornflowerblue;
+}
+.hold {
+    background-color: chartreuse;
+}
+/* CLASS SELECTORS */
+.tag {
+    color: red;
+}
+/* DESCENDENT SELECTORS  */
+li a {
+    color: blue;
+    text-decoration: none;
+}
+div a {
+    color: deeppink;
+}
+#cute a {
+    color: magenta;
+}
+/* ADJESCENT AND DIRECT-DECENDENT SELECTORS  */
+h3 + p {
+    color: crimson;
+    background-color: black;
+}
+footer > div {
+    color: greenyellow;
+    background-color: blue;
+}
+/* ATTRIBUTE SELECTOT  */
+input[type="text"] {
+    color: blue;
+}
+input[type="password"]{
+    color: skyblue;
+}
+/* PSEUDO CLASSES */
+button:hover {
+    font-size: 5px;
+    color: white;
+    background-color: blue;
+}
+#cold button:hover {
+    color: white;
+    background-color: red;
+}
+.hold:hover {
+    color: white;
+    background-color: goldenrod;
+    border: 2px solid red;
+}
+button:active {
+    background-color: black;
+}
+.hold:active {
+    background-color: black;
+}
+.idea:nth-child(2n) {
+    background-color: bisque;
+}
+/* PSEUDO ELEMENTS */
+h2::first-letter {
+    font-size: 50px;
+}
+.idea::first-line {
+    color: blue;
+}
+.idea p::selection {
+    color: red;
+    background-color: black;
+}
+/* CSS CASCADE */
+h3 {
+    color: red;
+}
+h3 {
+    color: magenta;
+}
+/* ( !important ) has the power to disable/win the selector in the CSS.
+              And this is also not used frequently or it is bad to use. */
+
+/* inherit is a property that is inherited from the parent style ( eg: color: inherit) */
