@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: solid underline red;
+    letter-spacing: 5px;
+    font-family: Tahoma, sans-serif;
+}
+
+pre {
+    color: orangered;
+    background-color: black;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}

@@ -1,0 +1,27 @@
+/* ALPHA CHANNEL */
+/* it does not effect the text color rather it fade the back-ground color. */
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: hsla(0, 100%, 50%, 0.3);
+    /* we can also represent the background-color in hex ( eg: background-color: #fffffb9;) */
+}
+
+/* OPACITY */
+/* it effexts both the text color as well as the back-ground color. */
+span section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.3;
+}

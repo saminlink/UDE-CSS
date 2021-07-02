@@ -1,0 +1,8 @@
+control + D = multiple selection of same words.
+control + V = duplication of same line in which the cursor is present.
+shift + alt + arrow key = duplication of same line in which the cursor is present.
+control + X = to cut the same line.
+shift + alt + mouse selection
+alt + click (mouse click)
+control + F = to check the number of occurence of words.
+(control + shift + L) OR (control + f2) = at a time selection of the same word.

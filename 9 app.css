@@ -1,0 +1,15 @@
+section {
+    height: 600px;
+    width: 100%;
+    background-image: url("girl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+}

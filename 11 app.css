@@ -1,0 +1,89 @@
+#container {
+    height: 300px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify-content: flex-start; ( DEFAULT ) */
+}
+#container div {
+    height: 200px;
+    width: 200px;
+}
+
+#just {
+    height: 300px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* justify-content: flex-start; ( DEFAULT ) */
+}
+#just div {
+    height: 200px;
+    width: 200px;
+}
+
+#justi {
+    height: 300px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: flex-start; ( DEFAULT ) */
+}
+#justi div {
+    height: 200px;
+    width: 200px;
+}
+
+#justif {
+    height: 300px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: flex-start; ( DEFAULT ) */
+}
+#justif div {
+    height: 200px;
+    width: 200px;
+}
+
+#justify {
+    height: 300px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-content: flex-start; ( DEFAULT ) */
+}
+#justify div {
+    height: 200px;
+    width: 200px;
+}
+
+#justit {
+    height: 300px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content: flex-start; ( DEFAULT ) */
+}
+#justit div {
+    height: 200px;
+    width: 200px;
+}

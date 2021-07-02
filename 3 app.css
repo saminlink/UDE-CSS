@@ -1,0 +1,62 @@
+/* HEIGHT AND WIDTH */
+h1 {
+    width: 400px;
+    background-color: blue;
+    text-align: center;
+}
+div {
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    background-color: aqua;
+}
+/* BORDER AND BORDER RADIUS */ 
+#heo {
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+#one {
+    border-width: 4px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+#two {
+    border-width: 4px;
+    border-style: solid;
+}
+#three {
+    border: 4px solid red;
+    border-radius: 20px;
+}
+/* PADDING */
+#but {
+    padding: 20px;
+}
+#but:active {
+    color: blue;
+    background-color: aquamarine;
+}
+/* MARGIN */
+/* the first thing on which we use the margin is on body
+ ( eg: body {margin: 0px} ) to make our content fixed to the screen. */
+
+#divu {
+     margin: 40px;
+     border: 4px solid magenta;
+}
+/* DISPLAY */
+/* display are of two types: 1.Inline, 2.Block, 3.nline-Block. */
+#heto {
+     background-color: burlywood;
+     display: inline;
+}
+#spo {
+    background-color: blue;
+    display: block;
+}
+.jerry {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    display: inline-block;
+}

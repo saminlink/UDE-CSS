@@ -1,0 +1,17 @@
+#aligncon {
+    height: 500px;
+    width: 90%;
+    background-color: aquamarine;
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: flex-start; ( DEFAULT ) */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    align-content: center;
+}
+#aligncon div {
+    height: 200px;
+    width: 200px;
+}

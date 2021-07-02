@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form demo</title>
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+        <form action="zetlet">
+            <fieldset>
+                <p>
+                <div>
+                    <label for="color">choose a color:</label>
+                    <input id="color" type="color" value="blue">
+                </div>
+                </p>
+                <p>
+                <div>
+                    <label for="username">enter a username:</label>
+                    <input id="username" type="text" placeholder="type your name here" name="username">
+                </div>
+                </p>
+                <p>
+                <div>
+                    <label for="password">password:</label>
+                    <input id="password" type="password" placeholder="password" name="password">
+                </div>
+                </p>
+                <p>
+                <div>
+                    <label for="number">choose a number:</label>
+                    <input id="number" type="number" value="2" placeholder="20" name="number" min="1" max="20" step="2">
+                </div>
+                </p>
+            </fieldset>
+        </form>
+
+
+
+
+
+
+        <form action="xylet">
+            <fieldset>
+
+                <p>
+                    <!-- <button>submit / not submit</button> both will submit the button until and unless
+                it is inside the form and the form has its action attribute. -->
+
+                    <button>submit</button>
+                    <button>not submit</button>
+                </p>
+
+                <p>
+                    <!-- <button type="button">submit</button> this will create a 
+                button inside the form that will not submit the form. -->
+
+                    <button type="button">submit</button>
+                </p>
+
+                <p>
+                    <!-- <input type="button" value="submit"> this will create a 
+                button inside the form that will not submit the form. -->
+
+                    <input type="button" value="submit">
+                </p>
+
+                <p>
+                    <!-- <input type="submit"> this will submit the button. -->
+
+                    <input type="submit" value="click me">
+                </p>
+
+            </fieldset>
+        </form>
+
+
+
+
+
+        <form action="trylet">
+            <fieldset>
+                <p>
+                    <label for="chkbox">i am fool:</label>
+                    <input type="checkbox" id="chkbox" name="" checked>
+                </p>
+                <p>
+                    <label for="chkbox1">i am not fool:</label>
+                    <input type="checkbox" id="chkbox1" name="">
+                </p>
+                <p>
+                    <input type="checkbox" id="chkbox" name="" checked>i am fool.
+                </p>
+                <p>
+                    <input type="checkbox" id="chkbox">i am not fool.
+                </p>
+            </fieldset>
+        </form>
+
+
+
+
+
+
+
+        <form action="prolet">
+            <fieldset>
+                <p>
+                    <label for="s">S</label>
+                    <input type="radio" name="red" id="s" value="jojo">
+                    <label for="m">M</label>
+                    <input type="radio" name="red" id="m" value="koko">
+                    <label for="l">L</label>
+                    <input type="radio" name="red" id="l" value="lolo">
+                </p>
+                <button>submit</button>
+            </fieldset>
+
+        </form>
+
+
+
+
+
+        <form action="drolet">
+            <fieldset>
+                <p>
+                    <label>this button is outside the table.</label>
+                    <button>submit</button>
+                </p>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </fieldset>
+        </form>
+
+
+
+
+
+
+        <form action="https://www.google.com/search">
+            <fieldset>
+                <input type="text" name="q" required>
+                <button>google it</button>
+            </fieldset>
+        </form>
+        <form action="https://www.reddit.com/search">
+            <fieldset>
+                <input type="text" name="q" required>
+                <button>reddit it</button>
+            </fieldset>
+        </form>
+
+
+
+
+
+        <form action="rewlet">
+            <fieldset>
+                <label for="names">select any one name:</label>
+                <select name="names" id="names">
+                    <option value="sameer">sameer</option>
+                    <option value="rupesh" selected>rupesh</option>
+                    <option value="jitesh">jitesh</option>
+                    <option value="saurav">saurav</option>
+                </select>
+            </fieldset>
+        </form>
+
+
+
+
+
+
+        <form action="brulet">
+            <fieldset>
+                <div>
+                    <label for="volume">volume:</label>
+                    <input type="range" id="volume" name="volume" min="1" max="100" value="20">
+                </div>
+
+
+                <div>
+                    <label for="volume">bass:</label>
+                    <input type="range" id="bass" name="bass" min="1" max="100" value="5" step="2">
+                </div>
+                <div>
+                    <label for="feedback">please give your feedback:</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"
+                        placeholder="give your feedback here...." required></textarea>
+                </div>
+            </fieldset>
+        </form>
+
+
+
+
+
+
+        <form action="titioi">
+            <fieldset>
+                <p>
+                    <label for="name">username:</label>
+                    <input type="text" name="name" id="name" minlength="4" maxlength="20" required>
+                </p>
+                <p>
+                    <label for="first">first name:</label>
+                    <input type="text" name="first" id="first" minlength="4" maxlength="20" required>
+                </p>
+                <p>
+                    <label for="e-mail">enter email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <!-- <input type="url" required> -->
+                </p>
+                <p>
+                    <button>submit</button>
+                </p>
+            </fieldset>
+        </form>
+
+
+
+
+    </body>
+
+</html>
